@@ -26,7 +26,7 @@ import { donutSVG } from './charts.js';
 
 const OWNER = 'UCHIHA-MADARA-ANUJ';
 const REPO = 'Commit';
-const PR_LINK = 'https://github.com/UCHIHA-MADARA-ANUJ/Commit/pull/1';
+const PR_LINK = 'https://github.com/UCHIHA-MADARA-ANUJ/Commit/pull/2';
 
 const issueBody = [
   '### Quest: unlock the Issues badge 🥷',
@@ -71,8 +71,8 @@ const SNAPSHOT = {
   name: 'UCHIHA MADARA ANUJ',
   avatar: 'https://github.com/UCHIHA-MADARA-ANUJ.png',
   bio: 'The very picture of the 98% problem — and the reason CommitQuest exists.',
-  mode: 'cached snapshot · 2026-08-29',
-  counts: { commits: 55, pullRequests: 1, issues: 0, reviews: 0, discussions: 0, repos: 19 },
+  mode: 'cached snapshot · 2026-08-29 (post-merge)',
+  counts: { commits: 65, pullRequests: 1, issues: 0, reviews: 0, discussions: 0, repos: 19 },
   langs: [
     { name: 'TypeScript', pct: 82.4 },
     { name: 'HTML', pct: 8.1 },
