@@ -34,7 +34,7 @@ console.log('\nedge: hostile event payloads');
     { type: 'UnknownFutureEventType', payload: {} },
     { type: 'IssuesEvent', payload: { action: 'opened', issue: null } },
   ]);
-  t('negative/zero push sizes clamp to 1 each (commits = 2)', c.commits === 2);
+  t('negative/zero/missing push sizes clamp to 1 each (commits = 3)', c.commits === 3);
   t('null payload never throws', true);
   t('reopened PRs do not count', c.pullRequests === 0);
   t('unknown event types ignored', c.issues === 1);
