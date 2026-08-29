@@ -1,10 +1,10 @@
 {
   "name": "commitquest",
   "version": "1.0.0",
-  "description": "CommitQuest — scan any GitHub profile and turn the '98% commits' problem into a quest to unlock every contribution type. Zero dependencies, no build step.",
+  "description": "CommitQuest \u2014 scan any GitHub profile and turn the '98% commits' problem into a quest to unlock every contribution type. Zero dependencies, no build step.",
   "type": "module",
   "scripts": {
-    "test": "node tests/run.tests.js",
+    "test": "node tests/run.tests.js && node tests/edge.tests.js",
     "start": "python3 -m http.server 8000"
   },
   "repository": {
