@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CommitQuest · Awaken all five contribution types</title>
+  <meta name="description" content="CommitQuest scans any GitHub profile and turns the '98% commits' problem into a ninja-style quest to earn every contribution type: commits, pull requests, issues, reviews and discussions." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='26' fill='none' stroke='%23ff4655' stroke-width='6'/%3E%3Ccircle cx='32' cy='16' r='7' fill='%23ff4655'/%3E%3Ccircle cx='19' cy='40' r='7' fill='%23ff4655'/%3E%3Ccircle cx='45' cy='40' r='7' fill='%23ff4655'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="brand" href="./">
+      <span class="brand-eye" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-name">Commit<em>Quest</em></span>
+    </a>
+    <div class="nav-links">
+      <a href="https://github.com/UCHIHA-MADARA-ANUJ/Commit">Source</a>
+      <a href="docs/ALL-FIVE-GUIDE.md">All-Five Guide</a>
+      <a href="profile-kit/README.md">Profile kit</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <p class="kicker">a zero-dependency github contribution dojo</p>
+    <h1>From <s>98% commits</s> to<br /><span class="grad">all-five legend</span></h1>
+    <p class="sub">
+      CommitQuest scans any GitHub profile, scores your contribution-type balance,
+      and hands you one-click quests to unlock what's missing — issues, pull
+      requests, reviews, discussions.
+    </p>
+
+    <form id="analyze-form" class="scan-form" autocomplete="off">
+      <span class="at" aria-hidden="true">@</span>
+      <input id="username-input" name="username" type="text" placeholder="github-username"
+             autocomplete="off" spellcheck="false" maxlength="39" aria-label="GitHub username" />
+      <button class="btn primary" type="submit" id="analyze-btn">Analyze</button>
+      <button class="btn ghost" type="button" id="demo-btn" title="Load a balanced sample shinobi">Sample</button>
+    </form>
+
+    <details class="token-box" id="token-box">
+      <summary>Exact mode <span class="chip">optional PAT</span></summary>
+      <p>
+        Public events only cover roughly your last 300 events. Paste a fine-grained
+        personal access token (no extra scopes needed for public data) to read your
+        <em>exact</em> yearly totals via GraphQL. It is stored only in your browser
+        (localStorage) and sent only to api.github.com.
+      </p>
+      <div class="token-row">
+        <input id="token-input" type="password" placeholder="github_pat_… / ghp_…" aria-label="personal access token" />
+        <button class="btn ghost" type="button" id="token-save">Save</button>
+        <button class="btn ghost danger" type="button" id="token-clear">Clear</button>
+      </div>
+    </details>
+  </header>
+
+  <main>
+    <section id="status" class="status" aria-live="polite"></section>
+
+    <section id="results" hidden>
+      <div class="panel profile-rank">
+        <div class="profile">
+          <img id="p-avatar" alt="avatar" width="96" height="96" src="" />
+          <div class="profile-info">
+            <h2 id="p-name"></h2>
+            <p class="login" id="p-login"></p>
+            <p class="bio" id="p-bio"></p>
+            <p class="meta" id="p-meta"></p>
+          </div>
+        </div>
+        <div class="rank-wrap">
+          <div class="donut-holder">
+            <div class="donut" id="donut" role="img" aria-label="contribution mix donut chart"></div>
+            <div class="donut-center" id="donut-center"></div>
+          </div>
+          <div class="rank-badge" id="rank-badge"></div>
+        </div>
+      </div>
+
+      <h2 class="sec-title">Contribution types <span class="count-pill" id="type-count"></span></h2>
+      <div class="type-grid" id="type-grid"></div>
+
+      <h2 class="sec-title">Quest board <span class="muted">one click each</span></h2>
+      <div class="quest-list" id="quest-list"></div>
+
+      <div class="duo-grid">
+        <section class="panel">
+          <h2 class="sec-title small">Primary languages</h2>
+          <div id="languages"></div>
+        </section>
+        <section class="panel">
+          <h2 class="sec-title small">Recent push activity <span class="muted">≈ last 13 weeks</span></h2>
+          <div id="heatmap" class="heatmap"></div>
+          <p class="muted small-note" id="heatmap-note"></p>
+        </section>
+      </div>
+
+      <div class="share-row">
+        <button class="btn primary" id="share-btn">Copy share card</button>
+        <span id="share-note" class="muted"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Built with vanilla everything — no frameworks, no build step, no dependencies.
+      <span class="muted">View source: it's just files.</span>
+    </p>
+    <p class="muted">MIT · <a href="https://github.com/UCHIHA-MADARA-ANUJ/Commit">UCHIHA-MADARA-ANUJ/Commit</a></p>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

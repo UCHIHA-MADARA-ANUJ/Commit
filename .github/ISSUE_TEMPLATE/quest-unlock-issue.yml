@@ -1,0 +1,37 @@
+name: '🥷 Quest — unlock the Issues badge'
+description: >-
+  Open this issue to earn your first Issues contribution.
+  (Yes, opening this very issue counts. That's the quest.)
+labels: ['quest', 'good first issue']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## The easiest badge on the board
+
+        Opening this issue **is** an Issues contribution. Fill one line below and hit submit —
+        then check your [CommitQuest dashboard](https://github.com/UCHIHA-MADARA-ANUJ/Commit) to watch the badge flip to unlocked.
+
+  - type: input
+    id: greeting
+    attributes:
+      label: Say hi
+      description: One line is enough. Really.
+      placeholder: Hello from the village hidden in the commits 🍃
+    validations:
+      required: true
+
+  - type: input
+    id: rank
+    attributes:
+      label: Your current CommitQuest rank
+      description: Find it on the dashboard next to the donut chart.
+      placeholder: 'e.g. Academy Student (1/6)'
+
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Quest rules
+      options:
+        - label: I opened this issue on purpose, to unlock my Issues badge
+          required: true

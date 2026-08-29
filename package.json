@@ -1,0 +1,24 @@
+{
+  "name": "commitquest",
+  "version": "1.0.0",
+  "description": "CommitQuest — scan any GitHub profile and turn the '98% commits' problem into a quest to unlock every contribution type. Zero dependencies, no build step.",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run.tests.js",
+    "start": "python3 -m http.server 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCHIHA-MADARA-ANUJ/Commit.git"
+  },
+  "keywords": [
+    "github",
+    "contributions",
+    "dashboard",
+    "stats",
+    "vanilla-js",
+    "zero-dependency"
+  ],
+  "author": "UCHIHA-MADARA-ANUJ",
+  "license": "MIT"
+}

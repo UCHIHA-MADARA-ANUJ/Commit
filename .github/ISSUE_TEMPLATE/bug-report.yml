@@ -1,0 +1,27 @@
+name: '🐞 Bug report'
+description: Something in the dashboard behaves wrong
+labels: ['bug']
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: A clear description + what you expected instead.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Username you scanned
+      placeholder: 'e.g. uchiha-madara-anuj'
+  - type: dropdown
+    attributes:
+      label: Mode
+      options:
+        - live estimate
+        - exact (GraphQL token)
+        - cached snapshot
+        - sample
+  - type: textarea
+    attributes:
+      label: Console output
+      description: Open DevTools → Console, paste any red text.
+      render: shell
