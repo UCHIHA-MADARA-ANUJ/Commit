@@ -45,8 +45,8 @@ It adds `docs/HALL_OF_FAME.md`.
 
 There is (or will be) an open PR in this repo authored by the Arena agent bot.
 
-1. Open the repo's **[Pull requests](https://github.com/UCHIHA-MADARA-ANUJ/Commit/pulls)** tab.
-2. Pick the agent's PR → **Files changed** → leave a comment (even *"LGTM, nice banner"*).
+1. Open **[PR #1 — CommitQuest](https://github.com/UCHIHA-MADARA-ANUJ/Commit/pull/1)**.
+2. **Files changed** → leave a comment (even *"LGTM, nice banner"*).
 3. **Submit review** → *Approve* or *Comment*.
 
 A submitted review = a Reviews contribution. ⏱ ~2 minutes.

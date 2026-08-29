@@ -26,7 +26,7 @@ import { donutSVG } from './charts.js';
 
 const OWNER = 'UCHIHA-MADARA-ANUJ';
 const REPO = 'Commit';
-const PR_LINK = 'https://github.com/UCHIHA-MADARA-ANUJ/Commit/pulls';
+const PR_LINK = 'https://github.com/UCHIHA-MADARA-ANUJ/Commit/pull/1';
 
 const issueBody = [
   '### Quest: unlock the Issues badge 🥷',
