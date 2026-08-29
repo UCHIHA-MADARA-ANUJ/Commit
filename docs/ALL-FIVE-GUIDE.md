@@ -12,52 +12,50 @@ contribution counters within a minute or so; re-scan yourself on the
 
 ---
 
-## ✅ Quest 1 — Commits (already unlocked: 55)
+## ✅ Quest 1 — Commits (unlocked: 55 → 65+)
 
-You're a commit machine. Nothing to do — but merging the PR in Quest 4 adds more.
+The agent built CommitQuest, committed it as you and **[PR #1 is already merged](https://github.com/UCHIHA-MADARA-ANUJ/Commit/pull/1)** —
+those 10 commits are on `main` and hit your graph automatically. Nothing to do. 🎉
 
-## ⬜ Quest 2 — Issues (currently 0)
+## ⬜ Quest 2 — Issues (currently 0) — ~20 seconds
 
-1. Open **[this prefilled issue](https://github.com/UCHIHA-MADARA-ANUJ/Commit/issues/new?template=quest-unlock-issue.yml)** — title and body are already written.
-2. Type one line of greeting, hit **Submit new issue**.
-3. Done. That's an Issues contribution. ⏱ ~30 seconds.
+1. Open **this zero-typing link** (title + body are prefilled):
+   [**Open my quest issue →**](https://github.com/UCHIHA-MADARA-ANUJ/Commit/issues/new?title=Quest%3A%20unlock%20my%20Issues%20badge&body=This%20issue%20is%20my%20first%20Issues%20contribution%20%F0%9F%A5%B7%20%E2%80%94%20opened%20via%20the%20CommitQuest%20quest%20board.)
+2. Click **Submit new issue**. Done — that's an Issues contribution.
 
 *Why it's legit:* it's the repo's designed introduction thread — you're saying hi to
 the project, which is exactly what issue templates like this are for.
 
-## ⬜ Quest 3 — Discussions (currently 0)
+## ⬜ Quest 3 — Discussions (currently 0) — ~1 minute
 
-1. Enable Discussions (repo owner, one time): **Settings → General → Features → ☑ Discussions**.
-2. Open the **Discussions** tab → **New discussion** → post e.g. *"Sharingan check-in — my CommitQuest rank is …"*.
-3. That's a Discussions contribution. ⏱ ~1 minute.
+1. Enable Discussions (one time, owner only — the agent's token can't): **Settings → General → Features → ☑ Discussions**.
+2. Open the **Discussions** tab → **New discussion** → post anything, e.g. *"Sharingan check-in — my CommitQuest rank is …"*. That's a Discussions contribution.
 
-## ⬜ Quest 4 — Pull requests (currently 1)
+## ⬜ Quest 4 — Pull requests (currently 1) — ~1 minute
 
-A ready-made branch exists: [`good-first-pr`](https://github.com/UCHIHA-MADARA-ANUJ/Commit/tree/good-first-pr).
-It adds `docs/HALL_OF_FAME.md`.
+Only your account can author a PR as you — that's the one thing no agent can do (and never give anyone your login to try).
 
-1. Open the **one-click compare link**:
-   `https://github.com/UCHIHA-MADARA-ANUJ/Commit/compare/main...good-first-pr?quick_pull=1`
-2. Title/body are prefilled. Edit your name into the file (pencil ✏️ in the file list) if you want.
-3. **Create pull request**. Authored by you = PR contribution. ⏱ ~1 minute.
+1. Open the **one-click compare link** (title/body prefilled):
+   [`main...good-first-pr?quick_pull=1`](https://github.com/UCHIHA-MADARA-ANUJ/Commit/compare/main...good-first-pr?quick_pull=1&title=Quest%3A%20add%20me%20to%20the%20Hall%20of%20Fame)
+2. Click **Create pull request**. You're the author = PR contribution. ✅
 
-## ⬜ Quest 5 — Reviews (currently 0)
+The branch adds `docs/HALL_OF_FAME.md` and is conflict-free. Ask the agent to merge it afterwards — merging is allowed, authoring isn't.
 
-There is (or will be) an open PR in this repo authored by the Arena agent bot.
+## ⬜ Quest 5 — Reviews (currently 0) — ~2 minutes
 
-1. Open **[PR #1 — CommitQuest](https://github.com/UCHIHA-MADARA-ANUJ/Commit/pull/1)**.
-2. **Files changed** → leave a comment (even *"LGTM, nice banner"*).
-3. **Submit review** → *Approve* or *Comment*.
+Same rule: reviews are attributed to the logged-in account, so this click is yours.
 
-A submitted review = a Reviews contribution. ⏱ ~2 minutes.
+1. Open **[PR #2 — edge-case test suite](https://github.com/UCHIHA-MADARA-ANUJ/Commit/pull/2)** (tiny: 2 files).
+2. **Files changed** → leave a comment (even *"LGTM, nice clamping tests"*).
+3. **Submit review** → *Approve* or *Comment*. ✅ Reviews contribution.
+
 (Repo owners *can* review PRs they didn't author — that's the trick this quest uses.)
 
 ## ✅ Quest 6 — Repos (already unlocked: 19)
 
 Nothing to do — but if you want a *useful* 20th repo: create the special
 `UCHIHA-MADARA-ANUJ/UCHIHA-MADARA-ANUJ` repo and paste the
-[`profile-kit/`](../profile-kit/README.md) README into it. Your GitHub profile page
-gets the glow-up *and* the counter ticks.
+[`profile-kit/`](../profile-kit/README.md) README into it. Profile glow-up + counter tick.
 
 ---
 
