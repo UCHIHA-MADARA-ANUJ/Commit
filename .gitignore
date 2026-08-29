@@ -1,0 +1,12 @@
+# files
+.DS_Store
+Thumbs.db
+*.log
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# no node_modules by design — but just in case
+node_modules/
